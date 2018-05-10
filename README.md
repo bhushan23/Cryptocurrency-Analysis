@@ -30,3 +30,10 @@ We performed analysis on following areas:
 * Wald's Test
 * Permutation Test
 * Simple and Multiple Linear regression
+
+## Authors
+1. Aditya Yele
+2. Bhushan Sonawane
+3. Dhanashri Patil
+4. Mihir Chakradeo
+5. Nishant Borude
