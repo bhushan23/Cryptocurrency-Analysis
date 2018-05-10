@@ -62,9 +62,12 @@ def SSE(y, y_hat):
 
 def MAPE(y, y_hat):
     temp = 0
+    cnt = 0
     for i in range(len(y)):
-        temp += abs((y[i]-y_hat[i])/y[i])
-    temp = (100/len(y))*temp
+        if y[i] != 0:
+            temp += abs((y[i]-y_hat[i])/y[i])
+            cnt++
+    temp = (100/cnt)*temp
     return(temp)
 
 def MultipleLinearRegression(X,Y):
